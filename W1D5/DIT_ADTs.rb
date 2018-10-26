@@ -6,4 +6,8 @@ class Stack
   def push(el)
     @array << el
   end
+
+  def pop
+    @array.pop
+  end
 end
