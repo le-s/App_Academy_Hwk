@@ -28,4 +28,8 @@ class Queue
   def dequeue
     @array.shift
   end
+
+  def peek
+    @array[-1]
+  end
 end
