@@ -35,20 +35,23 @@ class Queue
 end
 
 class Map
-  def initialize
-
+  def initialize(array)
+    @array = array
   end
 
   def set(key, value)
+
   end
 
   def get(key)
+
   end
 
   def delete(key)
+
   end
 
   def show
-  end
 
+  end
 end
