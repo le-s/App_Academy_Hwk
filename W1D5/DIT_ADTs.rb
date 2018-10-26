@@ -10,8 +10,12 @@ class Stack
   def pop
     @array.pop
   end
-  
+
   def peek
     @array[-1]
   end
+end
+
+class Queue
+  
 end
