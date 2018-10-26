@@ -24,4 +24,8 @@ class Queue
   def enqueue(el)
     @array.push(el)
   end
+
+  def dequeue
+    @array.shift
+  end
 end
