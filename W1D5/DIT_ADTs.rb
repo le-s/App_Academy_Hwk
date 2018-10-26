@@ -17,5 +17,7 @@ class Stack
 end
 
 class Queue
-  
+  def initialize(array)
+    @array = array
+  end
 end
