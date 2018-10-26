@@ -36,11 +36,17 @@ end
 
 class Map
   def initialize(array)
-    @array = array
+    @array = []
   end
 
   def set(key, value)
+    array = []
 
+    if array[] == key
+      array << [key + 1, value]
+    else
+      array << [key, value]
+    end
   end
 
   def get(key)
