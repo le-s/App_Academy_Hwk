@@ -20,4 +20,8 @@ class Queue
   def initialize(array)
     @array = array
   end
+
+  def enqueue(el)
+    @array.push(el)
+  end
 end
