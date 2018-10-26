@@ -33,3 +33,7 @@ class Queue
     @array[-1]
   end
 end
+
+class Map
+  
+end
